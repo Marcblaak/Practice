@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="x-ua-compatible" content="IE=10" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prima Personeel Uren</title>
+<link href="https://prima.ubplusonline.nl/media/theme-1/bootstrap.css?b=29" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://prima.ubplusonline.nl/media/theme-1/org.css?b=29" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE]>
+<link href="https://prima.ubplusonline.nl/style/ie.css?44" rel="stylesheet" type="text/css" media="screen, print" />
+<![endif]-->
+<!--[if lt IE 8]>
+<link href="https://prima.ubplusonline.nl/style/lt_ie8.css?44" rel="stylesheet" type="text/css" media="screen, print" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="https://prima.ubplusonline.nl/style/lt_ie9.css?44" rel="stylesheet" type="text/css" media="screen, print" />
+<![endif]-->
+<link href="https://prima.ubplusonline.nl/style/flick/jquery-ui-1.10.3.custom.min.css?44" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://prima.ubplusonline.nl/style/bootstrap-datepicker.min.css?44" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://prima.ubplusonline.nl/style/bootstrap2-toggle.min.css?44" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://prima.ubplusonline.nl/assets/select2-4.0.1/css/select2.min.css?44" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://prima.ubplusonline.nl/assets/select2-4.0.1/css/select2-bootstrap.min.css?44" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/jquery-1.12.4.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/jquery-ui-1.10.3.custom.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/jquery.color.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/bootstrap.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/bootstrap-datepicker.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/bootstrap-datepicker.nl.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/bootstrap2-toggle.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/assets/select2-4.0.1/js/select2.min.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/assets/select2-4.0.1/js/i18n/nl.js?44"></script>
+<script type="text/javascript" src="https://prima.ubplusonline.nl/js/init.js?44"></script>
+<script type="text/javascript">(function($) {$(document).ready(function() {$('input#login').focus();});})(jQuery);</script>
+</head>
+
+<body class="">
+
+<style type="text/css">
+    #enabled_columns, #disabled_columns {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        margin-right: 10px;
+        padding: 0;
+        padding: 5px;
+        width: 143px;
+        background: #eee;
+    }
+    #enabled_columns li, #disabled_columns li {
+        margin: 5px;
+        padding: 5px;
+        font-size: 1em;
+        width: 120px;
+    }
+    .ui-state-highlight {
+        height: 1.5em;
+        line-height: 1.2em;
+        background:#D6EEFC;	/*theme2*/
+    }
+    .ui-state-default {
+        cursor:move;
+    }
+</style>
+
+<noscript id="noscript-header">
+	Deze website maakt gebruik van <strong>Javascript</strong>.
+	<a href="http://www.enable-javascript.com/nl/" target="_blank">Schakel Javascript in</a> om alle mogelijkheden te benutten.
+</noscript>
+
+<div id="page_header_outer">
+	<div id="page_header" class="container">
+		<div class="logo">
+			<a href="https://prima.ubplusonline.nl/">
+			<img src="https://prima.ubplusonline.nl/media/logo.png" title="Prima Personeel" />
+			</a>
+		</div>
+		<div id="features">
+</div>
+<div class="helpdesk" data-toggle="tooltip" data-placement="bottom" title="Voor vragen kunt u ons gerust bellen">
+	<span class="phone"></span> 050-3138256</div>
+		<div id="mainnav" class="clearfix">
+	</div>
+	</div><!-- page_header -->
+</div>
+
+<div id="page_body_outer">
+	<div class="container" id="page_body">
+		<div class="row">
+			<div class="span12">
+				<div id="content" class="clearfix">
+															<div id="page_messages">
+											</div>
+										<form action="https://prima.ubplusonline.nl/auth/login" method="post" accept-charset="utf-8" class="clearfix"><fieldset id="login">
+
+	<legend>inloggen</legend>
+
+	<div class="field">
+		<label for="login">e-mail</label>		<input type="email" name="login" value="" id="login" maxlength="80" size="30"  />		<div class="input_error"></div>
+	</div>
+
+	<div class="field">
+		<label for="password">wachtwoord</label>		<input type="password" name="password" value="" id="password" size="30"  />		<div class="input_error"></div>
+	</div>
+
+	<div class="field">
+		<label for="remember">blijf ingelogd</label>		<input type="checkbox" name="remember" value="1" id="remember" style="margin:0;padding:0"  />	</div>
+
+	<div class="formbuttons">
+		<input type="submit" name="submit" value="Login" class="btn" /></span> <a href="https://prima.ubplusonline.nl/auth/forgot_password">wachtwoord vergeten?</a>	</div>
+
+	
+</fieldset>
+</form>				</div>
+			</div>
+		</div>
+	</div><!-- page_body, container -->
+</div><!-- page_body_outer -->
+
+<div id="page_footer_outer">
+	<div id="page_footer" class="container">
+		<div class="footerbar clearfix">
+			<div class="menu1">
+				<strong>Heeft u vragen? Bel
+					<span class="vcard">
+						<span class="tel" data-toggle="tooltip" title="Voor vragen kunt u bellen met Prima Personeel">
+							<span class="value"> 050-3138256</span>
+						</span>
+					</span>
+				</strong>
+			</div>
+			<div class="menu2">
+				<a href="https://uren.prima.nl" target="_new">Prima Personeel</a> 
+															</div>
+					</div><!-- .footerbar -->
+	</div><!-- #page_footer -->
+</div><!-- #page_footer_outer-->
+<div id="customModal" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="customModalLabel" aria-hidden="true">
+  <div class="modal-header" style="">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" title="Sluiten (Esc)">×</button>
+    <h3 id="customModalLabel"></h3>
+  </div>
+  <div class="modal-body">  	
+  </div>
+  <div class="modal-footer">
+  </div>
+</div>
+
+</body>
+</html>

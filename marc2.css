@@ -1,0 +1,49 @@
+body{
+  background-color:lightgrey;
+ color:black;
+}
+P{
+
+}
+
+
+
+
+#headingOne{
+width:30%;
+}
+#headingTwo{
+  width:30%;
+}
+ #headingThree{
+   width:30%
+ }
+
+.jumbotron{
+background-color:#e3f8f6;
+color:black;
+}
+
+.card-header{
+  background-color:black;
+  color:white;
+}
+.card-body{
+  color:black;
+
+}
+
+.d-block {
+  height: 500px;
+}
+.card-body{
+  margin:20px;
+
+}
+
+#footer{
+
+text-align:center;
+background-image:url();
+bottom:fixed;
+}
